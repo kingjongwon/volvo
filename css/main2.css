@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+body {
+  scroll-behavior: smooth;
+}
+#wrap {
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  z-index: 999;
+}
+header .logo {
+  width: 200px;
+  height: 35px;
+  margin-left: 20px;
+  float: left;
+}
+header .logo h1 {
+}
+header .logo h1 a {
+}
+header .logo h1 a img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+nav {
+}
+.gnb {
+  float: left;
+  margin-left: 230px;
+}
+.gnb li {
+  float: left;
+  padding: 20px 50px;
+}
+.gnb li a {
+}
+
+.content {
+  padding: 90px 0;
+}
+
+.con1 {
+  width: 100%;
+  margin: 0 auto;
+}
+.imgbox {
+  width: 55%;
+  float: left;
+}
+
+.imgbox img {
+  width: 100%;
+  filter: saturate(0);
+  transition: 1.5s;
+}
+.imgbox img:hover {
+  filter: saturate(1);
+}
+.txtbox {
+  float: left;
+  margin-left: 90px;
+}
+.txtbox h2 {
+  font-size: 70px;
+  margin-top: 130px;
+}
+.txtbox p {
+  font-size: 40px;
+  margin-top: 100px;
+}
+.con2 {
+  margin-top: 60px;
+}
+.xc90_box {
+  width: 100%;
+}
+.xc90_txtbox {
+  float: left;
+  width: 30%;
+  margin-left: 70px;
+}
+.xc90_txtbox h3 {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 60px;
+}
+.xc90_txtbox p {
+  margin-top: 60px;
+  text-align: center;
+}
+.xc_p1 {
+  font-size: 38px;
+  margin-bottom: 110px;
+}
+.xc_p2 {
+  margin-bottom: 130px;
+}
+.xc90_btn {
+}
+.xc90_btn a {
+  padding: 15px 25px;
+  background-color: #ddd;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.xc90_imgbox {
+  float: right;
+  width: 60%;
+}
+.xc90_imgbox img {
+  width: 100%;
+  transition: 1.5s;
+  filter: saturate(0);
+}
+.xc90_imgbox img:hover {
+  filter: saturate(1.2);
+}
+.model {
+  margin: 60px 0;
+}
+.m_maintit {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 0;
+}
+.model_menu {
+  margin-left: 2px;
+}
+.model_menu li {
+  width: 100%;
+  margin-top: 20px;
+}
+.model_menu:nth-child(2n) li {
+  margin-left: 8px;
+}
+.m_imgbox {
+  float: left;
+  margin-left: 460px;
+}
+.m_imgbox a {
+}
+.m_imgbox a img {
+}
+
+.m_txtbox {
+  float: left;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+.m_txtbox h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.m_txtbox p {
+  font-size: 12px;
+}
+.m_txtbox .m_p1 {
+  margin-bottom: 45px;
+}
+.m_txtbox .m_btn {
+}
+.m_txtbox .m_btn a {
+  padding: 3px 18px;
+  background-color: #ddd;
+  border-radius: 5px;
+  font-size: 13px;
+  font-size: 8px;
+}
+.model_menu li:nth-child(5) .m_txtbox {
+  margin-left: 100px;
+}
+
+.model_menu li:last-child .m_txtbox {
+  margin-left: 100px;
+}
